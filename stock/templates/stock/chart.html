@@ -1,0 +1,154 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% load widget_tweaks %}
+{% block content %}
+
+<!-- KANAN -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+<div class="main-panel">
+    <div class="content-wrapper">   
+        <div class="tab detail-page">
+            <button class="tablinks" onclick="openChart(event, 'Earnings')" id="defaultOpen">Earnings</button>
+            <button class="tablinks" onclick="openChart(event, 'Margins')">Margins</button>
+            <button class="tablinks" onclick="openChart(event, 'Items')">Items</button>
+            <script>document.getElementById("defaultOpen").click();</script>
+        </div>
+
+          <!-- Tab content -->
+        <div id="Earnings" class="chart-page detail-page tabcontent">
+            <div class='chart-box '>
+                <h2 class='chart-title'>Total Pembelian Bulan {{month}}</h2>
+                <canvas id="chart_earnings" width="300" height="150"></canvas>
+            </div>
+            <script>
+                function getColors(){
+                    let pallet = ['rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'];
+                    let colors = [];
+                    for(let i = 0; i < 30; i++) {
+                        colors.push(pallet[i % pallet.length]);
+                    }
+                    return colors;
+                }
+                var ctx = document.getElementById('chart_earnings').getContext('2d');
+                var myChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: [ {% for transaksi in filter.qs %} '{{ transaksi.date }}', {% endfor %} ],
+                        datasets: [{
+                            label: 'Sold Quantity',
+                            data: [{% for transaksi in filter.qs %} {{ transaksi.total_sales|safe }}, {% endfor %}],
+                            backgroundColor: getColors(),
+                            borderColor: getColors(),
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }]
+                        }
+                    }
+                });
+            </script>
+        </div>
+          
+        <div id="Margins" class="detail-page tabcontent">
+            <div class='chart-box '>
+                <h2 class='chart-title'>Total Pendapatan Bersih Bulan {{month}}</h2>
+                <canvas id="chart_margins" width="300" height="150"></canvas>
+            </div>
+            <script>
+                var ctx = document.getElementById('chart_margins').getContext('2d');
+                var myChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: [ {% for transaksi in filter.qs %} '{{ transaksi.date }}', {% endfor %} ],
+                        datasets: [{
+                            label: 'Sold Quantity',
+                            data: [{% for transaksi in filter.qs %} {{ transaksi.total_margin|safe }}, {% endfor %}],
+                            backgroundColor: getColors(),
+                            borderColor: getColors(),
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }]
+                        }
+                    }
+                });
+            </script>
+        </div>
+        <div id="Items" class="detail-page tabcontent">
+            <div class='chart-box '>
+                <h2 class='chart-title'>Jumlah Item Keluar Bulan {{month}}</h2>
+                <canvas id="chart_items" width="300" height="150"></canvas>
+            </div>
+            <script>
+                var ctx = document.getElementById('chart_items').getContext('2d');
+                var myChart = new Chart(ctx, {
+                    type: 'pie',
+                    data: {
+                        labels: [ {% for Transaksi in data_product %} '{{ Transaksi.items__category__category_name  }}', {% endfor %} ],
+                        datasets: [{
+                            label: 'Sold Quantity',
+                            data: [{% for Transaksi in data_product %} {{ Transaksi.total_quantity|safe }}, {% endfor %}],
+                            backgroundColor: getColors(),
+                            borderColor: getColors(),
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }]
+                        }
+                    }
+                });
+            </script>
+        </div>  
+
+        <div class="detail-page luar">
+            <form method="GET" class="filter-bar">
+                <div class="filtering">
+                    <div>
+                        {{ filter.form.non_field_errors }}
+                        <div class="fieldWrapper">
+                            {{ filter.form.purchase_month.errors }}
+                            <label style='margin-left:20px; color:rgb(51, 51, 51);' for="{{ filter.form.purchase_month.id_for_label }}">Penghasilan Bulan : </label>
+                            {{ filter.form.purchase_month|add_class:'filter-field btn'}}
+                        </div>
+                    </div>
+                    <div>
+                        {{ filter.form.non_field_errors }}
+                        <div class="fieldWrapper">
+                            {{ filter.form.purchase_year.errors }}
+                            <label style='margin-left:20px; color:rgb(51, 51, 51);' for="{{ filter.form.purchase_year.id_for_label }}">Tahun : </label>
+                            {{ filter.form.purchase_year|add_class:'filter-field btn'}}
+                        </div>
+                    </div>
+                    <button class="btn btn-primary mt-2 mt-xl-0 btn-nico" style='align-content: center; margin-left:10px;' type="submit">Search</button>
+                    <a class="btn btn-primary mt-2 mt-xl-0 btn-nico btn-merah kanan" href="{% url 'stock:year_chart' %}">Year View</a>
+                </div>
+            </form>
+        </div>  
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,92 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<script>
+    $(document).on('click', '.confirm-delete', function(){
+        return confirm('Are you sure you want to delete this?');
+    })
+</script>
+<!-- KANAN -->
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="luar detail-page">
+
+            <div class="rowss">
+                <div class="columnss">
+                    <img class="product-img-detail" src="{{ detail_product.get_photo_url }}">
+                </div>
+                <div class="columnss">
+                    <h3 class="detail-title">{{detail_product.name}}</h3>
+                    <h5 class="detail-category text-muted">{{detail_product.category|floatformat}}</h5>
+                    <h5 class="detail-price">Harga : Rp {{detail_product.harga_jual|floatformat}}</h5>
+                    <h5 class="detail-price">Modal : Rp {{detail_product.harga_modal|floatformat}}</h5>    
+                    <h5 class="detail-price">Stok : {{detail_product.quantity|floatformat}} buah</h5>    
+                    <h5 class="detail-price">Supplier : {{detail_product.supplier}}</h5>   
+                    <h5 class="detail-price">Description : <h5>{{detail_product.description}}</h5></h5>   
+                    <form method="POST">
+                        {% csrf_token %}
+                        <fieldset class="form-group">
+                            {{ form|crispy }}
+                        </fieldset>
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-buy " type="submit">Buy</button>
+                            <a style='float: right;' class="btn btn-primary btn-merah" href="{% url 'stock:author-delete' slug=detail_product.slug pk=detail_product.pk %}">Delete</a>
+                            <a style='float: right; margin-right: 10px;' class="btn btn-primary btn-hijau" href="{% url 'stock:author-update' slug=detail_product.slug pk=detail_product.pk %}">Update</a>
+                        </div>
+                    </form>
+                </div>  
+            </div>
+        </div>
+        <div class="luar table-page">
+            <div class="infinite-container">   
+                    <table>
+                        <tr>
+                        <th>Jumlah Pembelian</th>
+                        <th>Total Harga</th>
+                        <th>Jam</th>
+                        <th>Tanggal</th>
+                        <!-- <th>X</th> -->
+                        <th>X</th>
+                        </tr>
+                        {% for Transaksi in data_transaksi %}
+                            <tr>
+                                <td>{{Transaksi.sold_quantity|floatformat}}</td>
+                                <td>{{Transaksi.total}}</td>
+                                <td>{{Transaksi.purchase_date.time|date:"H:i"}}</td>
+                                <td>{{Transaksi.purchase_date.date}}</td>
+                                <!-- <td><a href='{%url "stock:transaksi-delete" pk=Transaksi.pk %}'>X</a></td> -->
+                                <td style="text-align: -webkit-center;"><form style="display:table-cell;" method="POST" action="{% url 'stock:transaksi-delete' pk=Transaksi.pk%}">{% csrf_token %}<button class="btn btn-merah" onclick="return confirm('Are you sure?');">X</button></form> </td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                {% if data_transaksi.has_other_pages %}
+                    <ul class="pagination pagination-sm container">
+                        {% if data_transaksi.has_previous %}
+                            <a class="btn btn-outline-info mb-4 but" href="?page=1">First</a>
+                            <a class="btn btn-outline-info mb-4 but" href="?page={{ data_transaksi.previous_page_number }}">Previous</a>
+                        {% endif %}
+                            
+                        {% for num in data_transaksi.paginator.page_range %}
+                            {% if data_transaksi.number == num %}
+                                <a class="btn btn-info mb-4 but" href="?page={{ num }}">{{ num }}</a>
+                            {% elif num > data_transaksi.number|add:'-3' and num < data_transaksi.number|add:'3' %}
+                                <a class="btn btn-outline-info mb-4 but" href="?page={{ num }}">{{ num }}</a>
+                            {% endif %}
+                        {% endfor %}
+                            
+                        {% if data_transaksi.has_next %}
+                            <a class="btn btn-outline-info mb-4 but" href="?page={{ data_transaksi.next_page_number }}">Next</a>
+                            <a class="btn btn-outline-info mb-4 but" href="?page={{ data_transaksi.paginator.num_pages }}">Last</a>
+                        {% endif %}                       
+                    </ul>
+                {% endif %}             
+            </div>    
+        </div>
+    </div>
+
+ 
+
+    
+{% endblock content %}

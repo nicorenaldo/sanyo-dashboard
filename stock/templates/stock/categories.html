@@ -1,0 +1,52 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<!-- KANAN -->
+<div class="main-panel">
+  <div class="content-wrapper">
+
+    <div class="row">
+      <div class="col-md-12 grid-margin">
+        <div class="d-flex justify-content-between flex-wrap">
+          <div class="d-flex align-items-end flex-wrap">
+            <div class="mr-md-3 mr-xl-5">
+              <h2>Manage Categories</h2>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-end flex-wrap">
+            <div class="nav-item">
+              <a class="btn btn-primary mt-2 mt-xl-0" href="{% url 'stock:author-add'%}">Add Product</a>
+              <a class="btn btn-primary mt-2 mt-xl-0 btn-hijau btn-nico" href="{% url 'stock:category-add'%}">Add Category</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="row">
+      <div class="col-md-12 grid-margin">
+        {% for Kategori in list_kategori %}
+            <div class="luar d-flex justify-content-between flex-wrap baris">
+            
+                <div class="d-flex align-items-end flex-wrap">
+                    <div class="mr-md-3 mr-xl-5">
+                        <h4 class="title">{{Kategori.category_name}}</h4>
+                        <p class="mb-md-0">Jumlah : {{Kategori.totalkategori}}</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-end flex-wrap">
+                    <div class="nav-item">
+                        <a class="btn btn-primary mt-2 mt-xl-0" href="{% url 'stock:category-update' Kategori.slug %}">Edit</a>
+                        <a class="btn btn-primary mt-2 mt-xl-0 btn-merah btn-nico" href="{% url 'stock:category-delete' Kategori.slug %}">Delete</a>
+                    </div>
+                </div>
+          
+            </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+{% endblock content %}

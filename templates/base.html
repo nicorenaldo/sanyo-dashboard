@@ -1,0 +1,156 @@
+{% load static %}
+{% load bootstrap4 %}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Dashboard Sanyo</title>
+    
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="{% static 'vendors/mdi/css/materialdesignicons.min.css' %}">
+    <link rel="stylesheet" href="{% static 'vendors/base/vendor.bundle.base.css' %}">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <link rel="stylesheet" href="{% static 'vendors/datatables.net-bs4/dataTables.bootstrap4.css' %}">
+    <!-- End plugin css for this page -->
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="{% static 'css/font.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'css/fontawesome-all.css' %}" rel="stylesheet">
+    <link href="{% static 'css/swiper.css' %}" rel="stylesheet">
+	  <link href="{% static 'css/magnific-popup.css' %}" rel="stylesheet">
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/styles-nico.css' %}" rel="stylesheet">
+    
+	<!-- Favicon  -->
+    <link rel="icon" href="{% static 'images/favicon.png' %}">
+</head>
+
+<body onload="document.getElementById('defaultOpen').click();" data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
+
+    <!-- Navbar -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="navbar-brand-wrapper d-flex justify-content-center">
+          <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">  
+            <a class="navbar-brand brand-text" href="{% url 'stock:dashboard' %}"><span>Sanyo</span></a>
+          </div>  
+        </div>
+        <div style="flex:1;" class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+          <ul class="navbar-nav mr-lg-4 w-100">
+            <li class="nav-item nav-search d-none d-lg-block w-100">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="search">
+                    <i class="mdi mdi-magnify"></i>
+                  </span>
+                </div>
+                <form method="GET" class="form-control"  action="{% url 'stock:dashboard' %}">
+                  <input type="text" class="form-control" id="user-input" placeholder="Product Name..." name="q" required="">
+                  <input type="submit" class="form-control"  value=" ">
+                </form>
+              </div>
+
+            </li>
+          </ul>
+        </div>
+        <div style="width: 300px;" class="navbar-brand-wrapper d-flex justify-content-center">
+          <div class="nav-item d-flex align-items-center w-100">  
+            <a class="btn btn-primary mt-2 mt-xl-0" href="{% url 'stock:author-add'%}">Add Product</a>
+            <a style="margin-left: 10px;"class="btn btn-primary mt-2 mt-xl-0 btn-hijau btn-nico" href="{% url 'stock:category-add'%}">Add Category</a>
+          </div>
+        </div >
+    </nav>
+    <!-- end of navbar -->
+
+    <div class="container-scroller">
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- KIRI -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'stock:dashboard' %}">
+                <i class="mdi mdi-home menu-icon"></i>
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'manage_categories' %}">
+                <i class="mdi mdi-view-headline menu-icon"></i>
+                <span class="menu-title">Manage Categories</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'stock:chart' %}">
+                <i class="mdi mdi-chart-pie menu-icon"></i>
+                <span class="menu-title">Charts</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'stock:earnings' %}">
+                <i class="mdi mdi-cash menu-icon"></i>
+                <span class="menu-title">Earnings</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'stock:transaction_list' %}">
+                <i class="mdi mdi-grid-large menu-icon"></i>
+                <span class="menu-title">Recent Transactions</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="mdi mdi-file-document-box-outline menu-icon"></i>
+                <span class="menu-title">Documentation</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        {% block content %}{% endblock %}
+            <!-- FOOTER -->
+        <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2018 <a href="https://www.urbanui.com/" target="_blank">Urbanui</a>. All rights reserved.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="mdi mdi-heart text-danger"></i></span>
+          </div>
+        </footer>
+
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+       	
+    <!-- Scripts -->
+    <script src="{% static 'js/jquery.min.js' %}"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="{% static 'js/popper.min.js' %}"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script> <!-- Bootstrap framework -->
+    <script src="{% static 'js/jquery.easing.min.js' %}"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="{% static 'js/swiper.min.js' %}"></script> <!-- Swiper for image and text sliders -->
+    <script src="{% static 'js/jquery.magnific-popup.js' %}"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="{% static 'js/morphext.min.js' %}"></script> <!-- Morphtext rotating text in the header -->
+    <script src="{% static 'js/validator.min.js' %}"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="{% static 'js/scripts.js' %}"></script> <!-- Custom scripts -->
+    <script type="text/javascript" src="{% static 'js/ajax.js'%}"></script>
+    <script type="text/javascript" src="{% static 'js/filter.js'%}"></script>
+   
+ 
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+
+ 
+<div id="replaceable-content">
+  <div class="row infinite-container">
+    <h4 style="margin: 0.6rem;">Total : {{list_product.count}} Barang</h4>
+  </div>
+  <div id="Card" class="passivez tabcontent row infinite-container">
+    {% for Product in list_product %}
+      <div class="card">
+          <a href="{{ Product.get_absolute_url }}">
+            <figure>
+              <img class="card-img" src="{{ Product.get_photo_url }}">
+            </figure>
+            <div class="product-title">
+              <h5 class="max-lines title">{{Product.name}}</h5>
+            </div>
+            <div class="product-desc">
+              <h6 class="text-muted price">Rp {{Product.harga_jual|floatformat}}</h6>
+              <h6 class="text-muted price">Stok : {{Product.quantity|floatformat}}</h6>
+              <!-- <h6 class="text-muted">{{Product.category}}</h6> -->
+            </div>
+          </a>
+          <div class="cart">
+            <a class="cart-text" href="{{ Product.get_absolute_url }}">{{Product.category}}</a>
+          </div>
+      </div>
+
+    {% endfor %}
+  </div>
+  <div id="List" class="passivez tabcontent row infinite-container">
+    <div class="table-page">
+      <table>
+          <tr>
+          <th >Nama</th>
+          <th >Stok</th>
+          <th >Harga</th>
+          </tr>
+          {% for Product in list_product %}
+              <tr>
+                  <td><a style="color: black;" href="{{ Product.get_absolute_url }}">{{Product.name}}</a></td>
+                  <td>{{Product.quantity|floatformat}}</td>
+                  <td>Rp {{Product.harga_jual|floatformat}}</td>
+              </tr>
+          {% endfor %}
+      </table>
+    </div>
+  </div>
+
+</div>

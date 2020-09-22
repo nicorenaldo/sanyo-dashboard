@@ -1,0 +1,1283 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "stock",
+    "model": "kategori"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "stock",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "stock",
+    "model": "transaksi"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 1,
+  "fields": {
+    "name": "Solder Kayu 40W",
+    "description": "SGF",
+    "harga_jual": "20000.00",
+    "harga_modal": "8500.00",
+    "quantity": "20.00",
+    "category": 1,
+    "image": "poster/Solder_Kayu_40W.jpeg",
+    "slug": "solder-kayu-40w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 2,
+  "fields": {
+    "name": "Solder Kayu 60W",
+    "description": "SGF",
+    "harga_jual": "20000.00",
+    "harga_modal": "12000.00",
+    "quantity": "19.00",
+    "category": 1,
+    "image": "poster/Solder_Kayu_60W.jpeg",
+    "slug": "solder-kayu-60w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 3,
+  "fields": {
+    "name": "Solder Masda 40W",
+    "description": "SGF",
+    "harga_jual": "60000.00",
+    "harga_modal": "35000.00",
+    "quantity": "9.00",
+    "category": 1,
+    "image": "poster/Solder_Masda_40W.jpeg",
+    "slug": "solder-masda-40w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 5,
+  "fields": {
+    "name": "Solder Masda 60W",
+    "description": "SGF",
+    "harga_jual": "75000.00",
+    "harga_modal": "40000.00",
+    "quantity": "3.00",
+    "category": 1,
+    "image": "poster/Solder_Masda_60W.jpeg",
+    "slug": "solder-masda-60w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 6,
+  "fields": {
+    "name": "Solder Deko 30W",
+    "description": "SGF",
+    "harga_jual": "70000.00",
+    "harga_modal": "41500.00",
+    "quantity": "5.00",
+    "category": 1,
+    "image": "poster/Solder_Deko_30W.jpeg",
+    "slug": "solder-deko-30w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 7,
+  "fields": {
+    "name": "Solder Deko 30W Biru",
+    "description": "SGF",
+    "harga_jual": "100000.00",
+    "harga_modal": "51500.00",
+    "quantity": "5.00",
+    "category": 1,
+    "image": "poster/Solder_Deko_30W_Biru.jpeg",
+    "slug": "solder-deko-30w-biru",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 8,
+  "fields": {
+    "name": "Solder Deko 40W",
+    "description": "SGF",
+    "harga_jual": "75000.00",
+    "harga_modal": "46500.00",
+    "quantity": "18.00",
+    "category": 1,
+    "image": "poster/Solder_Deko_40W.jpeg",
+    "slug": "solder-deko-40w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 9,
+  "fields": {
+    "name": "Solder Deko 60W",
+    "description": "SGF",
+    "harga_jual": "90000.00",
+    "harga_modal": "53500.00",
+    "quantity": "6.00",
+    "category": 1,
+    "image": "poster/Solder_Deko_60W.jpeg",
+    "slug": "solder-deko-60w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 10,
+  "fields": {
+    "name": "Solder Deko 97",
+    "description": "SGF",
+    "harga_jual": "150000.00",
+    "harga_modal": "87500.00",
+    "quantity": "2.00",
+    "category": 1,
+    "image": "poster/Solder_Deko_97.jpeg",
+    "slug": "solder-deko-97",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 11,
+  "fields": {
+    "name": "Solder Winner 40W",
+    "description": "Solder",
+    "harga_jual": "50000.00",
+    "harga_modal": "23000.00",
+    "quantity": "9.00",
+    "category": 1,
+    "image": "poster/Solder_Winner_40W.jpeg",
+    "slug": "solder-winner-40w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 12,
+  "fields": {
+    "name": "Solder Kinto 60W",
+    "description": "Cahaya Timur (CT)",
+    "harga_jual": "55000.00",
+    "harga_modal": "31000.00",
+    "quantity": "5.00",
+    "category": 1,
+    "image": "poster/Solder_Kinto_60W.jpeg",
+    "slug": "solder-kinto-60w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 13,
+  "fields": {
+    "name": "Solder Okachi 60W",
+    "description": "Cahaya Timur (CT)",
+    "harga_jual": "50000.00",
+    "harga_modal": "36500.00",
+    "quantity": "5.00",
+    "category": 1,
+    "image": "poster/Solder_Okachi_60W.jpeg",
+    "slug": "solder-okachi-60w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 14,
+  "fields": {
+    "name": "Solder Pistol Masda 938-N",
+    "description": "SGF",
+    "harga_jual": "100000.00",
+    "harga_modal": "55000.00",
+    "quantity": "2.00",
+    "category": 1,
+    "image": "poster/Solder_Pistol_Masda_938-N.jpeg",
+    "slug": "solder-pistol-masda-938-n",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 15,
+  "fields": {
+    "name": "Solder Pistol Visero PQ-80",
+    "description": "Indomas (IIS)",
+    "harga_jual": "50000.00",
+    "harga_modal": "35000.00",
+    "quantity": "4.00",
+    "category": 1,
+    "image": "poster/Solder_Pistol_Visero_PQ-80.jpeg",
+    "slug": "solder-pistol-visero-pq-80",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 16,
+  "fields": {
+    "name": "Lampu DC Visero 3W",
+    "description": "Central Elektronik (CE)",
+    "harga_jual": "20000.00",
+    "harga_modal": "8500.00",
+    "quantity": "5.00",
+    "category": 2,
+    "image": "poster/Lampu_DC_Visero_3W.jpeg",
+    "slug": "lampu-dc-visero-3w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 17,
+  "fields": {
+    "name": "Lampu DC Kawato 5W",
+    "description": "Central Elektronic (CE)",
+    "harga_jual": "25000.00",
+    "harga_modal": "13000.00",
+    "quantity": "3.00",
+    "category": 2,
+    "image": "poster/Lampu_DC_Kawato_5W.jpeg",
+    "slug": "lampu-dc-kawato-5w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 18,
+  "fields": {
+    "name": "Lampu DC Kawato 7W",
+    "description": "Central Elektronik (CE)",
+    "harga_jual": "30000.00",
+    "harga_modal": "15000.00",
+    "quantity": "5.00",
+    "category": 2,
+    "image": "poster/Lampu_DC_Kawato_7W.jpeg",
+    "slug": "lampu-dc-kawato-7w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 19,
+  "fields": {
+    "name": "Lampu DC Mitsuyama 5W",
+    "description": "Central Elektronik (CE)",
+    "harga_jual": "25000.00",
+    "harga_modal": "15000.00",
+    "quantity": "1.00",
+    "category": 2,
+    "image": "poster/Lampu_DC_Mitsuyama_5W.jpeg",
+    "slug": "lampu-dc-mitsuyama-5w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 20,
+  "fields": {
+    "name": "Lampu DC Mitsuyama 10W",
+    "description": "Central Elektronik (CE)",
+    "harga_jual": "35000.00",
+    "harga_modal": "21000.00",
+    "quantity": "1.00",
+    "category": 2,
+    "image": "poster/Lampu_DC_Mitsuyama_10W.jpeg",
+    "slug": "lampu-dc-mitsuyama-10w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 21,
+  "fields": {
+    "name": "Lampu DC Itami 3W",
+    "description": "Indomas (IIS)",
+    "harga_jual": "15000.00",
+    "harga_modal": "8000.00",
+    "quantity": "4.00",
+    "category": 2,
+    "image": "poster/Lampu_DC_Itami_3W.jpeg",
+    "slug": "lampu-dc-itami-3w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 22,
+  "fields": {
+    "name": "Lampu DC Itami 5W",
+    "description": "Indomas (IIS)",
+    "harga_jual": "20000.00",
+    "harga_modal": "10000.00",
+    "quantity": "3.00",
+    "category": 2,
+    "image": "poster/Lampu_DC_Itami_5W.jpeg",
+    "slug": "lampu-dc-itami-5w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 23,
+  "fields": {
+    "name": "Lampu DC Itami 7W",
+    "description": "Indomas (IIS)",
+    "harga_jual": "25000.00",
+    "harga_modal": "13000.00",
+    "quantity": "4.00",
+    "category": 2,
+    "image": "poster/Lampu_DC_Itami_7W.jpeg",
+    "slug": "lampu-dc-itami-7w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 24,
+  "fields": {
+    "name": "Lampu DC Itami 9W",
+    "description": "Indomas (IIS)",
+    "harga_jual": "35000.00",
+    "harga_modal": "16000.00",
+    "quantity": "5.00",
+    "category": 2,
+    "image": "poster/Lampu_DC_Itami_9W.jpeg",
+    "slug": "lampu-dc-itami-9w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 25,
+  "fields": {
+    "name": "Lampu DC Rudy 3W",
+    "description": "Indomas (IIS)",
+    "harga_jual": "50000.00",
+    "harga_modal": "35000.00",
+    "quantity": "2.00",
+    "category": 2,
+    "image": "poster/Lampu_DC_Rudy_3W.jpeg",
+    "slug": "lampu-dc-rudy-3w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 26,
+  "fields": {
+    "name": "Lampu DC Rudy 5W",
+    "description": "Indomas (IIS)",
+    "harga_jual": "60000.00",
+    "harga_modal": "45000.00",
+    "quantity": "2.00",
+    "category": 2,
+    "image": "poster/Lampu_DC_Rudy_5W.jpeg",
+    "slug": "lampu-dc-rudy-5w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 27,
+  "fields": {
+    "name": "Lampu DC Rudy 7W",
+    "description": "Indomas (IIS)",
+    "harga_jual": "70000.00",
+    "harga_modal": "55000.00",
+    "quantity": "2.00",
+    "category": 2,
+    "image": "poster/Lampu_DC_Rudy_7W.jpeg",
+    "slug": "lampu-dc-rudy-7w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 29,
+  "fields": {
+    "name": "LED PHILIP 3W",
+    "description": "PHILIP",
+    "harga_jual": "25000.00",
+    "harga_modal": "16000.00",
+    "quantity": "60.00",
+    "category": 3,
+    "image": "poster/LED_PHILIP_3W.jpeg",
+    "slug": "led-philip-3w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 30,
+  "fields": {
+    "name": "LED PHILIP 5W",
+    "description": "PHILIP",
+    "harga_jual": "30000.00",
+    "harga_modal": "19500.00",
+    "quantity": "46.00",
+    "category": 3,
+    "image": "poster/LED_PHILIP_5W.jpeg",
+    "slug": "led-philip-5w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 31,
+  "fields": {
+    "name": "LED PHILIP 7W",
+    "description": "PHILIP",
+    "harga_jual": "35000.00",
+    "harga_modal": "23500.00",
+    "quantity": "39.00",
+    "category": 3,
+    "image": "poster/LED_PHILIP_7W.jpeg",
+    "slug": "led-philip-7w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 32,
+  "fields": {
+    "name": "LED PHILIP 9W",
+    "description": "PHILIP",
+    "harga_jual": "40000.00",
+    "harga_modal": "27500.00",
+    "quantity": "46.00",
+    "category": 3,
+    "image": "poster/LED_PHILIP_9W.jpeg",
+    "slug": "led-philip-9w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 33,
+  "fields": {
+    "name": "LED PHILIP 11W",
+    "description": "PHILIP",
+    "harga_jual": "45000.00",
+    "harga_modal": "36400.00",
+    "quantity": "52.00",
+    "category": 3,
+    "image": "poster/LED_PHILIP_11W.jpeg",
+    "slug": "led-philip-11w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 34,
+  "fields": {
+    "name": "LED PHILIP 13W",
+    "description": "PHILIP",
+    "harga_jual": "50000.00",
+    "harga_modal": "41800.00",
+    "quantity": "9.00",
+    "category": 3,
+    "image": "poster/LED_PHILIP_13W.jpeg",
+    "slug": "led-philip-13w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 35,
+  "fields": {
+    "name": "LED PHILIP 14,5W",
+    "description": "PHILIP",
+    "harga_jual": "70000.00",
+    "harga_modal": "57600.00",
+    "quantity": "14.00",
+    "category": 3,
+    "image": "poster/LED_PHILIP_145W.jpeg",
+    "slug": "led-philip-145w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 36,
+  "fields": {
+    "name": "LED PHILIP 19W",
+    "description": "PHILIP",
+    "harga_jual": "100000.00",
+    "harga_modal": "80500.00",
+    "quantity": "16.00",
+    "category": 3,
+    "image": "poster/LED_PHILIP_19W.jpeg",
+    "slug": "led-philip-19w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 37,
+  "fields": {
+    "name": "LED PHILIP 30W",
+    "description": "PHILIP",
+    "harga_jual": "125000.00",
+    "harga_modal": "100000.00",
+    "quantity": "4.00",
+    "category": 3,
+    "image": "poster/LED_PHILIP_30W.jpeg",
+    "slug": "led-philip-30w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 38,
+  "fields": {
+    "name": "Lampu LED KOSS 5W",
+    "description": "Central Elektronik (CE)",
+    "harga_jual": "10000.00",
+    "harga_modal": "4500.00",
+    "quantity": "14.00",
+    "category": 5,
+    "image": "poster/Lampu_DC_KOSS_5W.jpeg",
+    "slug": "lampu-led-koss-5w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 39,
+  "fields": {
+    "name": "Lampu LED STARLUX 10W",
+    "description": "Central Elektronik (CE)",
+    "harga_jual": "15000.00",
+    "harga_modal": "6000.00",
+    "quantity": "8.00",
+    "category": 5,
+    "image": "poster/Lampu_DC_STARLUX_10W.jpeg",
+    "slug": "lampu-led-starlux-10w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 40,
+  "fields": {
+    "name": "Lampu LED STARLUX 15W",
+    "description": "Central Elektronik (CE)",
+    "harga_jual": "20000.00",
+    "harga_modal": "8500.00",
+    "quantity": "6.00",
+    "category": 5,
+    "image": "poster/Lampu_DC_STARLUX__15W.jpeg",
+    "slug": "lampu-led-starlux-15w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 41,
+  "fields": {
+    "name": "Lampu LED STARLUX 20W",
+    "description": "Central Elektronik (CE)",
+    "harga_jual": "25000.00",
+    "harga_modal": "9500.00",
+    "quantity": "0.00",
+    "category": 5,
+    "image": "poster/Lampu_DC_STARLUX__20W.jpeg",
+    "slug": "lampu-led-starlux-20w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 42,
+  "fields": {
+    "name": "Lampu LED STARLUX 30W",
+    "description": "Central Elektronik (CE)",
+    "harga_jual": "30000.00",
+    "harga_modal": "14000.00",
+    "quantity": "11.00",
+    "category": 5,
+    "image": "poster/Lampu_DC_STARLUX__30W.jpeg",
+    "slug": "lampu-led-starlux-30w",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 43,
+  "fields": {
+    "name": "Mic Betavo BT-100X",
+    "description": "Martin Elektronik (Song)",
+    "harga_jual": "250000.00",
+    "harga_modal": "100000.00",
+    "quantity": "1.00",
+    "category": 6,
+    "image": "poster/Mic_Betavo_BT-100X.jpeg",
+    "slug": "mic-betavo-bt-100x",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 44,
+  "fields": {
+    "name": "Mic BMB NK-533",
+    "description": "Cahaya Timur (CT)",
+    "harga_jual": "280000.00",
+    "harga_modal": "160000.00",
+    "quantity": "4.00",
+    "category": 6,
+    "image": "poster/Mic_BMB_NK-533.jpeg",
+    "slug": "mic-bmb-nk-533",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 45,
+  "fields": {
+    "name": "Mic Crimson CR-888S",
+    "description": "Martin Elektronik (Song)",
+    "harga_jual": "300000.00",
+    "harga_modal": "85000.00",
+    "quantity": "4.00",
+    "category": 6,
+    "image": "poster/Mic_Crimson_CR-888S.jpeg",
+    "slug": "mic-crimson-cr-888s",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 46,
+  "fields": {
+    "name": "Mic Crimson CR-1200",
+    "description": "Martin Elektronik (Song)",
+    "harga_jual": "400000.00",
+    "harga_modal": "135000.00",
+    "quantity": "5.00",
+    "category": 6,
+    "image": "poster/Mic_Crimson_CR-1200.jpeg",
+    "slug": "mic-crimson-cr-1200",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 47,
+  "fields": {
+    "name": "Mic Sennheiser 600",
+    "description": "Martin Elektronik (Song)",
+    "harga_jual": "250000.00",
+    "harga_modal": "90000.00",
+    "quantity": "9.00",
+    "category": 6,
+    "image": "poster/Mic_Sennheiser_600.jpeg",
+    "slug": "mic-sennheiser-600",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 48,
+  "fields": {
+    "name": "Mic Sennheiser 825S",
+    "description": "Martin Elektronik (Song)",
+    "harga_jual": "200000.00",
+    "harga_modal": "100000.00",
+    "quantity": "5.00",
+    "category": 6,
+    "image": "poster/Mic_Sennheiser_845S.jpeg",
+    "slug": "mic-sennheiser-825s",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 49,
+  "fields": {
+    "name": "Mic Shure Beta 58 A",
+    "description": "Martin Elektronik (Song)",
+    "harga_jual": "225000.00",
+    "harga_modal": "100000.00",
+    "quantity": "6.00",
+    "category": 6,
+    "image": "poster/Mic_Shure_Beta_58_A.jpeg",
+    "slug": "mic-shure-beta-58-a",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 50,
+  "fields": {
+    "name": "Mic Shure PG-58V",
+    "description": "Cahaya Timur (CT)",
+    "harga_jual": "200000.00",
+    "harga_modal": "95000.00",
+    "quantity": "1.00",
+    "category": 6,
+    "image": "poster/Mic_Shure_PG-58V.jpeg",
+    "slug": "mic-shure-pg-58v",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 51,
+  "fields": {
+    "name": "Mic Shure SM-57",
+    "description": "SE",
+    "harga_jual": "250000.00",
+    "harga_modal": "125000.00",
+    "quantity": "1.00",
+    "category": 6,
+    "image": "poster/Mic_Shure_SM-57.jpeg",
+    "slug": "mic-shure-sm-57",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 52,
+  "fields": {
+    "name": "Mic Shure SM-58",
+    "description": "Martin Elektronik (Song)",
+    "harga_jual": "225000.00",
+    "harga_modal": "90000.00",
+    "quantity": "8.00",
+    "category": 6,
+    "image": "poster/Mic_Shure_SM-58.jpeg",
+    "slug": "mic-shure-sm-58",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 53,
+  "fields": {
+    "name": "Mis Sony SN-909",
+    "description": "Cahaya Timur (CT)",
+    "harga_jual": "125000.00",
+    "harga_modal": "67500.00",
+    "quantity": "1.00",
+    "category": 6,
+    "image": "poster/Mic_Sony_SN-909.jpeg",
+    "slug": "mis-sony-sn-909",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 54,
+  "fields": {
+    "name": "Mic Thunder K-168",
+    "description": "Thunder",
+    "harga_jual": "200000.00",
+    "harga_modal": "110000.00",
+    "quantity": "13.00",
+    "category": 6,
+    "image": "poster/Mic_Thunder_K-168.jpeg",
+    "slug": "mic-thunder-k-168",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 55,
+  "fields": {
+    "name": "Mic Yamaha YM-79S",
+    "description": "Cahaya Timur (CT)",
+    "harga_jual": "250000.00",
+    "harga_modal": "115000.00",
+    "quantity": "2.00",
+    "category": 6,
+    "image": "poster/Mic_Yamaha_YM-79S.jpeg",
+    "slug": "mic-yamaha-ym-79s",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 56,
+  "fields": {
+    "name": "Mic Yamaha YM-916",
+    "description": "Central Elektronik (CE)",
+    "harga_jual": "200000.00",
+    "harga_modal": "115000.00",
+    "quantity": "2.00",
+    "category": 6,
+    "image": "poster/Mic_Yamaha_YM-916.jpeg",
+    "slug": "mic-yamaha-ym-916",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.kategori",
+  "pk": 1,
+  "fields": {
+    "category_name": "Solder",
+    "image": "",
+    "slug": "solder"
+  }
+},
+{
+  "model": "stock.kategori",
+  "pk": 2,
+  "fields": {
+    "category_name": "Lampu DC",
+    "image": "",
+    "slug": "lampu-dc"
+  }
+},
+{
+  "model": "stock.kategori",
+  "pk": 3,
+  "fields": {
+    "category_name": "Lampu Garansi",
+    "image": "",
+    "slug": "lampu-led-garansi"
+  }
+},
+{
+  "model": "stock.kategori",
+  "pk": 5,
+  "fields": {
+    "category_name": "Lampu LED",
+    "image": "",
+    "slug": "lampu-led"
+  }
+},
+{
+  "model": "stock.kategori",
+  "pk": 6,
+  "fields": {
+    "category_name": "Microphone",
+    "image": "",
+    "slug": "microphone"
+  }
+},
+{
+  "model": "stock.transaksi",
+  "pk": 4,
+  "fields": {
+    "items": 40,
+    "purchase_date": "2020-09-14T11:57:30.478",
+    "sold_quantity": "2.00",
+    "harga_terjual": "20000.00"
+  }
+},
+{
+  "model": "stock.transaksi",
+  "pk": 5,
+  "fields": {
+    "items": 41,
+    "purchase_date": "2020-09-14T11:57:50.074",
+    "sold_quantity": "4.00",
+    "harga_terjual": "25000.00"
+  }
+},
+{
+  "model": "stock.transaksi",
+  "pk": 6,
+  "fields": {
+    "items": 2,
+    "purchase_date": "2020-09-14T11:58:03.928",
+    "sold_quantity": "1.00",
+    "harga_terjual": "20000.00"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add kategori",
+    "content_type": 7,
+    "codename": "add_kategori"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change kategori",
+    "content_type": 7,
+    "codename": "change_kategori"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete kategori",
+    "content_type": 7,
+    "codename": "delete_kategori"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view kategori",
+    "content_type": 7,
+    "codename": "view_kategori"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 8,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 8,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 8,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 8,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add transaksi",
+    "content_type": 9,
+    "codename": "add_transaksi"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change transaksi",
+    "content_type": 9,
+    "codename": "change_transaksi"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete transaksi",
+    "content_type": 9,
+    "codename": "delete_transaksi"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view transaksi",
+    "content_type": 9,
+    "codename": "view_transaksi"
+  }
+}
+]

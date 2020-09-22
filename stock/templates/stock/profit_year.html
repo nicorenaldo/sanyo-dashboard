@@ -1,0 +1,67 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% load widget_tweaks %}
+{% block content %}
+
+
+<!-- KANAN -->
+<div class="main-panel">
+    <div class="content-wrapper">     
+        <div class="luar detail-page">
+            <form method="GET" class="filter-bar">
+                <div class="filtering">
+                    <div>
+                        {{ filter.form.non_field_errors }}
+                        <div class="fieldWrapper">
+                            {{ filter.form.purchase_year.errors }}
+                            <label style='margin-left:10px; color: rgb(51, 51, 51);' for="{{ filter.form.purchase_year.id_for_label }}">Tahun : </label>
+                            {{ filter.form.purchase_year|add_class:'filter-field btn'}}
+                        </div>
+                    </div>
+                    <button class="btn btn-primary mt-2 mt-xl-0 btn-nico" style='margin-left:10px;' type="submit">Search</button>
+                    <a class="btn btn-primary mt-2 mt-xl-0 btn-nico btn-merah kanan" href="{% url 'stock:earnings' %}">Month View</a>
+                </div>
+            </form>
+        </div>    
+        <div class="luar detail-page">
+            <div>
+                <h1 class="center judul-tabel">Penghasilan Tahun {{ filter.data.purchase_year|safe }}</h1>
+            </div>  
+            <table>
+                <tr>
+                <th style="width: 33%;">Bulan</th>
+                <th style="width: 33%;">Total Penjualan</th>
+                <th style="width: 33%;">Pendapatan Bersih</th>
+                </tr>
+                {% for transaksi in filter.qs %}
+                    <tr>
+                        <td style="width: 33%;">{{transaksi.date|date:"F"}}</td>
+                        <td style="width: 33%;">{{transaksi.total_sales}}</td>
+                        <td style="width: 33%;">{{transaksi.total_margin}}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <div class="luar table-page"  style=" margin: 20px 10px 20px 10px;">
+            <table>
+                <tr>
+                <th style="width: 50%;">Total Penjualan</th>
+                {% for transaksi in year_earning %}
+                <th style="width: 50%;">{{ transaksi.total_sales }}</th>
+                </tr>
+                <tr>
+                <th style="width: 50%;">Pendapatan Bersih</th>
+                <th style="width: 50%;">{{ transaksi.total_margin }}</th>
+                {% endfor %}
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    
+ 
+
+    
+   
+{% endblock content %}

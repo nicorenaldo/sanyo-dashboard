@@ -1,0 +1,60 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<!-- KANAN -->
+<div class="main-panel">
+  <div class="content-wrapper">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <div style="overflow: visible;"class="container tab detail-page">
+      <button class="tablinks" onclick="openTab(event, 'Card')" value="Card" id="defaultOpen">Card</button>
+      <button class="tablinks" onclick="openTab(event, 'List')" value="List">List</button>
+      <div class="dropdown-sortby justify-content-between">
+        <p></p>
+        <div class="row align-items-center">
+          <div class="select_wrap sortby">
+              <ul class="default_option">
+                  <li>
+                      <p class="default-text">Sort By</p>
+                  </li>
+              </ul>
+              <ul class="select_ul">
+                <li class="form-check">
+                  <label class="form-check-label"  for="user-input2"><input id="user-input2" class="form-check-input" type="radio"  name="harga" value="hargaplus" >
+                    Harga+
+                  </label>
+                </li>
+                <li class="form-check">
+                  <label class="form-check-label"  for="user-input3"><input id="user-input3" class="form-check-input" type="radio"  name="harga" value="hargamin" >
+                    Harga-
+                  </label>
+                </li>
+                <li class="form-check">
+                  <label class="form-check-label"  for="user-input4"><input id="user-input4" class="form-check-input" type="radio"  name="nama" value="namaplus" >
+                    Nama+
+                  </label>
+                </li>
+                <li class="form-check">
+                  <label class="form-check-label"  for="user-input5"><input id="user-input5" class="form-check-input" type="radio"  name="nama" value="namamin" >
+                    Nama-
+                  </label>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <script>document.getElementById("defaultOpen").click();</script>
+    </div>
+
+    {% include 'stock/results-partial.html' %}
+
+    
+  </div>
+
+
+
+
+{% endblock content %}

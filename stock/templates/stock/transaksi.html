@@ -1,0 +1,65 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+
+<!-- KANAN -->
+<div class="main-panel">
+    <div class="content-wrapper">     
+        <div class="luar detail-page">
+            <div class="infinite-container">   
+                <div>
+                    <h1 class="center judul-tabel">Recent Transaction</h1>
+                </div>  
+                <table>
+                    <tr>
+                    <th>Nama Item</th>
+                    <th>Jumlah Pembelian</th>
+                    <th>Total Harga</th>
+                    <th>Jam</th>
+                    <th>Tanggal</th>
+                    <th>X</th>
+                    </tr>
+                    {% for Transaksi in data_transaksi %}
+                        <tr>
+                            <td><a href="{{ Transaksi.items.get_absolute_url }}">{{Transaksi.items}}</a></td>
+                            <td>{{Transaksi.sold_quantity|floatformat}}</td>
+                            <td>{{Transaksi.total }}</td>
+                            <td>{{Transaksi.purchase_date.time|date:"H:i"}}</td>
+                            <td>{{Transaksi.purchase_date.date}}</td>
+                            <td style="text-align: -webkit-center;"><form style="display:table-cell;" method="POST" action="{% url 'stock:recent-transaksi-delete' pk=Transaksi.pk%}">{% csrf_token %}<button class="btn btn-merah" onclick="return confirm('Are you sure?');">X</button></form> </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+                {% if data_transaksi.has_other_pages %}
+                <ul class="pagination pagination-sm container">
+                    {% if data_transaksi.has_previous %}
+                        <a class="btn btn-outline-info mb-4 but" href="?page=1">First</a>
+                        <a class="btn btn-outline-info mb-4 but" href="?page={{ data_transaksi.previous_page_number }}">Previous</a>
+                    {% endif %}
+                        
+                    {% for num in data_transaksi.paginator.page_range %}
+                        {% if data_transaksi.number == num %}
+                            <a class="btn btn-info mb-4 but" href="?page={{ num }}">{{ num }}</a>
+                        {% elif num > data_transaksi.number|add:'-3' and num < data_transaksi.number|add:'3' %}
+                            <a class="btn btn-outline-info mb-4 but" href="?page={{ num }}">{{ num }}</a>
+                        {% endif %}
+                    {% endfor %}
+                        
+                    {% if data_transaksi.has_next %}
+                        <a class="btn btn-outline-info mb-4 but" href="?page={{ data_transaksi.next_page_number }}">Next</a>
+                        <a class="btn btn-outline-info mb-4 but" href="?page={{ data_transaksi.paginator.num_pages }}">Last</a>
+                    {% endif %}                       
+                </ul>
+                {% endif %}             
+            </div>    
+        </div>
+    </div>
+
+    
+ 
+
+    
+   
+{% endblock content %}
