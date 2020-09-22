@@ -76,14 +76,14 @@
   "pk": 1,
   "fields": {
     "name": "Solder Kayu 40W",
-    "description": "SGF",
+    "description": "-",
     "harga_jual": "20000.00",
     "harga_modal": "8500.00",
-    "quantity": "20.00",
+    "quantity": "19.00",
     "category": 1,
     "image": "poster/Solder_Kayu_40W.jpeg",
     "slug": "solder-kayu-40w",
-    "supplier": null
+    "supplier": "SGF"
   }
 },
 {
@@ -91,14 +91,14 @@
   "pk": 2,
   "fields": {
     "name": "Solder Kayu 60W",
-    "description": "SGF",
+    "description": "-",
     "harga_jual": "20000.00",
     "harga_modal": "12000.00",
     "quantity": "19.00",
     "category": 1,
     "image": "poster/Solder_Kayu_60W.jpeg",
     "slug": "solder-kayu-60w",
-    "supplier": null
+    "supplier": "SGF"
   }
 },
 {
@@ -106,14 +106,14 @@
   "pk": 3,
   "fields": {
     "name": "Solder Masda 40W",
-    "description": "SGF",
+    "description": "-",
     "harga_jual": "60000.00",
     "harga_modal": "35000.00",
     "quantity": "9.00",
     "category": 1,
     "image": "poster/Solder_Masda_40W.jpeg",
     "slug": "solder-masda-40w",
-    "supplier": null
+    "supplier": "SGF"
   }
 },
 {
@@ -136,14 +136,14 @@
   "pk": 6,
   "fields": {
     "name": "Solder Deko 30W",
-    "description": "SGF",
+    "description": "-",
     "harga_jual": "70000.00",
     "harga_modal": "41500.00",
     "quantity": "5.00",
     "category": 1,
     "image": "poster/Solder_Deko_30W.jpeg",
     "slug": "solder-deko-30w",
-    "supplier": null
+    "supplier": "SGF"
   }
 },
 {
@@ -151,14 +151,14 @@
   "pk": 7,
   "fields": {
     "name": "Solder Deko 30W Biru",
-    "description": "SGF",
+    "description": "-",
     "harga_jual": "100000.00",
     "harga_modal": "51500.00",
     "quantity": "5.00",
     "category": 1,
     "image": "poster/Solder_Deko_30W_Biru.jpeg",
     "slug": "solder-deko-30w-biru",
-    "supplier": null
+    "supplier": "SGF"
   }
 },
 {
@@ -166,14 +166,14 @@
   "pk": 8,
   "fields": {
     "name": "Solder Deko 40W",
-    "description": "SGF",
+    "description": "-",
     "harga_jual": "75000.00",
     "harga_modal": "46500.00",
     "quantity": "18.00",
     "category": 1,
     "image": "poster/Solder_Deko_40W.jpeg",
     "slug": "solder-deko-40w",
-    "supplier": null
+    "supplier": "SGF"
   }
 },
 {
@@ -181,14 +181,14 @@
   "pk": 9,
   "fields": {
     "name": "Solder Deko 60W",
-    "description": "SGF",
+    "description": "-",
     "harga_jual": "90000.00",
     "harga_modal": "53500.00",
     "quantity": "6.00",
     "category": 1,
     "image": "poster/Solder_Deko_60W.jpeg",
     "slug": "solder-deko-60w",
-    "supplier": null
+    "supplier": "SGF"
   }
 },
 {
@@ -196,14 +196,14 @@
   "pk": 10,
   "fields": {
     "name": "Solder Deko 97",
-    "description": "SGF",
+    "description": "-",
     "harga_jual": "150000.00",
     "harga_modal": "87500.00",
     "quantity": "2.00",
     "category": 1,
     "image": "poster/Solder_Deko_97.jpeg",
     "slug": "solder-deko-97",
-    "supplier": null
+    "supplier": "SGF"
   }
 },
 {
@@ -211,14 +211,14 @@
   "pk": 11,
   "fields": {
     "name": "Solder Winner 40W",
-    "description": "Solder",
+    "description": "-",
     "harga_jual": "50000.00",
     "harga_modal": "23000.00",
     "quantity": "9.00",
     "category": 1,
     "image": "poster/Solder_Winner_40W.jpeg",
     "slug": "solder-winner-40w",
-    "supplier": null
+    "supplier": "Central Elektronik (CE)"
   }
 },
 {
@@ -226,14 +226,14 @@
   "pk": 12,
   "fields": {
     "name": "Solder Kinto 60W",
-    "description": "Cahaya Timur (CT)",
+    "description": "-",
     "harga_jual": "55000.00",
     "harga_modal": "31000.00",
     "quantity": "5.00",
     "category": 1,
     "image": "poster/Solder_Kinto_60W.jpeg",
     "slug": "solder-kinto-60w",
-    "supplier": null
+    "supplier": "Cahaya Timur (CT)"
   }
 },
 {
@@ -241,14 +241,14 @@
   "pk": 13,
   "fields": {
     "name": "Solder Okachi 60W",
-    "description": "Cahaya Timur (CT)",
+    "description": "-",
     "harga_jual": "50000.00",
     "harga_modal": "36500.00",
     "quantity": "5.00",
     "category": 1,
     "image": "poster/Solder_Okachi_60W.jpeg",
     "slug": "solder-okachi-60w",
-    "supplier": null
+    "supplier": "Cahaya Timur (CT)"
   }
 },
 {
@@ -256,14 +256,14 @@
   "pk": 14,
   "fields": {
     "name": "Solder Pistol Masda 938-N",
-    "description": "SGF",
+    "description": "-",
     "harga_jual": "100000.00",
     "harga_modal": "55000.00",
     "quantity": "2.00",
     "category": 1,
     "image": "poster/Solder_Pistol_Masda_938-N.jpeg",
     "slug": "solder-pistol-masda-938-n",
-    "supplier": null
+    "supplier": "SGF"
   }
 },
 {
@@ -271,14 +271,14 @@
   "pk": 15,
   "fields": {
     "name": "Solder Pistol Visero PQ-80",
-    "description": "Indomas (IIS)",
+    "description": "-",
     "harga_jual": "50000.00",
     "harga_modal": "35000.00",
     "quantity": "4.00",
     "category": 1,
     "image": "poster/Solder_Pistol_Visero_PQ-80.jpeg",
     "slug": "solder-pistol-visero-pq-80",
-    "supplier": null
+    "supplier": "Indomas (IIS)"
   }
 },
 {
@@ -286,14 +286,14 @@
   "pk": 16,
   "fields": {
     "name": "Lampu DC Visero 3W",
-    "description": "Central Elektronik (CE)",
+    "description": "-",
     "harga_jual": "20000.00",
     "harga_modal": "8500.00",
     "quantity": "5.00",
     "category": 2,
     "image": "poster/Lampu_DC_Visero_3W.jpeg",
     "slug": "lampu-dc-visero-3w",
-    "supplier": null
+    "supplier": "Central Elektronik (CE)"
   }
 },
 {
@@ -301,14 +301,14 @@
   "pk": 17,
   "fields": {
     "name": "Lampu DC Kawato 5W",
-    "description": "Central Elektronic (CE)",
+    "description": "-",
     "harga_jual": "25000.00",
     "harga_modal": "13000.00",
     "quantity": "3.00",
     "category": 2,
     "image": "poster/Lampu_DC_Kawato_5W.jpeg",
     "slug": "lampu-dc-kawato-5w",
-    "supplier": null
+    "supplier": "Central Elektronik (CE)"
   }
 },
 {
@@ -316,14 +316,14 @@
   "pk": 18,
   "fields": {
     "name": "Lampu DC Kawato 7W",
-    "description": "Central Elektronik (CE)",
+    "description": "-",
     "harga_jual": "30000.00",
     "harga_modal": "15000.00",
     "quantity": "5.00",
     "category": 2,
     "image": "poster/Lampu_DC_Kawato_7W.jpeg",
     "slug": "lampu-dc-kawato-7w",
-    "supplier": null
+    "supplier": "Central Elektronik (CE)"
   }
 },
 {
@@ -331,14 +331,14 @@
   "pk": 19,
   "fields": {
     "name": "Lampu DC Mitsuyama 5W",
-    "description": "Central Elektronik (CE)",
+    "description": "-",
     "harga_jual": "25000.00",
     "harga_modal": "15000.00",
     "quantity": "1.00",
     "category": 2,
     "image": "poster/Lampu_DC_Mitsuyama_5W.jpeg",
     "slug": "lampu-dc-mitsuyama-5w",
-    "supplier": null
+    "supplier": "Central Elektronik (CE)"
   }
 },
 {
@@ -346,14 +346,14 @@
   "pk": 20,
   "fields": {
     "name": "Lampu DC Mitsuyama 10W",
-    "description": "Central Elektronik (CE)",
+    "description": "-",
     "harga_jual": "35000.00",
     "harga_modal": "21000.00",
     "quantity": "1.00",
     "category": 2,
     "image": "poster/Lampu_DC_Mitsuyama_10W.jpeg",
     "slug": "lampu-dc-mitsuyama-10w",
-    "supplier": null
+    "supplier": "Central Elektronik (CE)"
   }
 },
 {
@@ -361,14 +361,14 @@
   "pk": 21,
   "fields": {
     "name": "Lampu DC Itami 3W",
-    "description": "Indomas (IIS)",
+    "description": "-",
     "harga_jual": "15000.00",
     "harga_modal": "8000.00",
     "quantity": "4.00",
     "category": 2,
     "image": "poster/Lampu_DC_Itami_3W.jpeg",
     "slug": "lampu-dc-itami-3w",
-    "supplier": null
+    "supplier": "Indomas (IIS)"
   }
 },
 {
@@ -376,14 +376,14 @@
   "pk": 22,
   "fields": {
     "name": "Lampu DC Itami 5W",
-    "description": "Indomas (IIS)",
+    "description": "-",
     "harga_jual": "20000.00",
     "harga_modal": "10000.00",
     "quantity": "3.00",
     "category": 2,
     "image": "poster/Lampu_DC_Itami_5W.jpeg",
     "slug": "lampu-dc-itami-5w",
-    "supplier": null
+    "supplier": "Indomas (IIS)"
   }
 },
 {
@@ -391,14 +391,14 @@
   "pk": 23,
   "fields": {
     "name": "Lampu DC Itami 7W",
-    "description": "Indomas (IIS)",
+    "description": "-",
     "harga_jual": "25000.00",
     "harga_modal": "13000.00",
     "quantity": "4.00",
     "category": 2,
     "image": "poster/Lampu_DC_Itami_7W.jpeg",
     "slug": "lampu-dc-itami-7w",
-    "supplier": null
+    "supplier": "Indomas (IIS)"
   }
 },
 {
@@ -406,14 +406,14 @@
   "pk": 24,
   "fields": {
     "name": "Lampu DC Itami 9W",
-    "description": "Indomas (IIS)",
+    "description": "-",
     "harga_jual": "35000.00",
     "harga_modal": "16000.00",
     "quantity": "5.00",
     "category": 2,
     "image": "poster/Lampu_DC_Itami_9W.jpeg",
     "slug": "lampu-dc-itami-9w",
-    "supplier": null
+    "supplier": "Indomas (IIS)"
   }
 },
 {
@@ -421,14 +421,14 @@
   "pk": 25,
   "fields": {
     "name": "Lampu DC Rudy 3W",
-    "description": "Indomas (IIS)",
+    "description": "-",
     "harga_jual": "50000.00",
     "harga_modal": "35000.00",
     "quantity": "2.00",
     "category": 2,
     "image": "poster/Lampu_DC_Rudy_3W.jpeg",
     "slug": "lampu-dc-rudy-3w",
-    "supplier": null
+    "supplier": "Indomas (IIS)"
   }
 },
 {
@@ -436,14 +436,14 @@
   "pk": 26,
   "fields": {
     "name": "Lampu DC Rudy 5W",
-    "description": "Indomas (IIS)",
+    "description": "-",
     "harga_jual": "60000.00",
     "harga_modal": "45000.00",
     "quantity": "2.00",
     "category": 2,
     "image": "poster/Lampu_DC_Rudy_5W.jpeg",
     "slug": "lampu-dc-rudy-5w",
-    "supplier": null
+    "supplier": "Indomas (IIS)"
   }
 },
 {
@@ -451,14 +451,14 @@
   "pk": 27,
   "fields": {
     "name": "Lampu DC Rudy 7W",
-    "description": "Indomas (IIS)",
+    "description": "-",
     "harga_jual": "70000.00",
     "harga_modal": "55000.00",
     "quantity": "2.00",
     "category": 2,
     "image": "poster/Lampu_DC_Rudy_7W.jpeg",
     "slug": "lampu-dc-rudy-7w",
-    "supplier": null
+    "supplier": "Indomas (IIS)"
   }
 },
 {
@@ -466,14 +466,14 @@
   "pk": 29,
   "fields": {
     "name": "LED PHILIP 3W",
-    "description": "PHILIP",
+    "description": "-",
     "harga_jual": "25000.00",
     "harga_modal": "16000.00",
     "quantity": "60.00",
     "category": 3,
     "image": "poster/LED_PHILIP_3W.jpeg",
     "slug": "led-philip-3w",
-    "supplier": null
+    "supplier": "PHILIP"
   }
 },
 {
@@ -481,14 +481,14 @@
   "pk": 30,
   "fields": {
     "name": "LED PHILIP 5W",
-    "description": "PHILIP",
+    "description": "-",
     "harga_jual": "30000.00",
     "harga_modal": "19500.00",
     "quantity": "46.00",
     "category": 3,
     "image": "poster/LED_PHILIP_5W.jpeg",
     "slug": "led-philip-5w",
-    "supplier": null
+    "supplier": "PHILIP"
   }
 },
 {
@@ -496,14 +496,14 @@
   "pk": 31,
   "fields": {
     "name": "LED PHILIP 7W",
-    "description": "PHILIP",
+    "description": "-",
     "harga_jual": "35000.00",
     "harga_modal": "23500.00",
-    "quantity": "39.00",
+    "quantity": "37.00",
     "category": 3,
     "image": "poster/LED_PHILIP_7W.jpeg",
     "slug": "led-philip-7w",
-    "supplier": null
+    "supplier": "PHILIP"
   }
 },
 {
@@ -511,14 +511,14 @@
   "pk": 32,
   "fields": {
     "name": "LED PHILIP 9W",
-    "description": "PHILIP",
+    "description": "-",
     "harga_jual": "40000.00",
     "harga_modal": "27500.00",
     "quantity": "46.00",
     "category": 3,
     "image": "poster/LED_PHILIP_9W.jpeg",
     "slug": "led-philip-9w",
-    "supplier": null
+    "supplier": "PHILIP"
   }
 },
 {
@@ -526,14 +526,14 @@
   "pk": 33,
   "fields": {
     "name": "LED PHILIP 11W",
-    "description": "PHILIP",
+    "description": "-",
     "harga_jual": "45000.00",
     "harga_modal": "36400.00",
     "quantity": "52.00",
     "category": 3,
     "image": "poster/LED_PHILIP_11W.jpeg",
     "slug": "led-philip-11w",
-    "supplier": null
+    "supplier": "PHILIP"
   }
 },
 {
@@ -541,14 +541,14 @@
   "pk": 34,
   "fields": {
     "name": "LED PHILIP 13W",
-    "description": "PHILIP",
+    "description": "-",
     "harga_jual": "50000.00",
     "harga_modal": "41800.00",
     "quantity": "9.00",
     "category": 3,
     "image": "poster/LED_PHILIP_13W.jpeg",
     "slug": "led-philip-13w",
-    "supplier": null
+    "supplier": "PHILIP"
   }
 },
 {
@@ -556,14 +556,14 @@
   "pk": 35,
   "fields": {
     "name": "LED PHILIP 14,5W",
-    "description": "PHILIP",
+    "description": "-",
     "harga_jual": "70000.00",
     "harga_modal": "57600.00",
     "quantity": "14.00",
     "category": 3,
     "image": "poster/LED_PHILIP_145W.jpeg",
     "slug": "led-philip-145w",
-    "supplier": null
+    "supplier": "PHILIP"
   }
 },
 {
@@ -571,14 +571,14 @@
   "pk": 36,
   "fields": {
     "name": "LED PHILIP 19W",
-    "description": "PHILIP",
+    "description": "-",
     "harga_jual": "100000.00",
     "harga_modal": "80500.00",
     "quantity": "16.00",
     "category": 3,
     "image": "poster/LED_PHILIP_19W.jpeg",
     "slug": "led-philip-19w",
-    "supplier": null
+    "supplier": "PHILIP"
   }
 },
 {
@@ -586,14 +586,14 @@
   "pk": 37,
   "fields": {
     "name": "LED PHILIP 30W",
-    "description": "PHILIP",
+    "description": "-",
     "harga_jual": "125000.00",
     "harga_modal": "100000.00",
     "quantity": "4.00",
     "category": 3,
     "image": "poster/LED_PHILIP_30W.jpeg",
     "slug": "led-philip-30w",
-    "supplier": null
+    "supplier": "PHILIP"
   }
 },
 {
@@ -601,14 +601,14 @@
   "pk": 38,
   "fields": {
     "name": "Lampu LED KOSS 5W",
-    "description": "Central Elektronik (CE)",
+    "description": "-",
     "harga_jual": "10000.00",
     "harga_modal": "4500.00",
     "quantity": "14.00",
     "category": 5,
     "image": "poster/Lampu_DC_KOSS_5W.jpeg",
     "slug": "lampu-led-koss-5w",
-    "supplier": null
+    "supplier": "Central Elektronik (CE)"
   }
 },
 {
@@ -616,14 +616,14 @@
   "pk": 39,
   "fields": {
     "name": "Lampu LED STARLUX 10W",
-    "description": "Central Elektronik (CE)",
+    "description": "-",
     "harga_jual": "15000.00",
     "harga_modal": "6000.00",
     "quantity": "8.00",
     "category": 5,
     "image": "poster/Lampu_DC_STARLUX_10W.jpeg",
     "slug": "lampu-led-starlux-10w",
-    "supplier": null
+    "supplier": "Central Elektronik (CE)"
   }
 },
 {
@@ -631,14 +631,14 @@
   "pk": 40,
   "fields": {
     "name": "Lampu LED STARLUX 15W",
-    "description": "Central Elektronik (CE)",
-    "harga_jual": "20000.00",
+    "description": "-",
+    "harga_jual": "18000.00",
     "harga_modal": "8500.00",
     "quantity": "6.00",
     "category": 5,
     "image": "poster/Lampu_DC_STARLUX__15W.jpeg",
     "slug": "lampu-led-starlux-15w",
-    "supplier": null
+    "supplier": "Central Elektronik (CE)"
   }
 },
 {
@@ -646,14 +646,14 @@
   "pk": 41,
   "fields": {
     "name": "Lampu LED STARLUX 20W",
-    "description": "Central Elektronik (CE)",
-    "harga_jual": "25000.00",
+    "description": "-",
+    "harga_jual": "20000.00",
     "harga_modal": "9500.00",
     "quantity": "0.00",
     "category": 5,
     "image": "poster/Lampu_DC_STARLUX__20W.jpeg",
     "slug": "lampu-led-starlux-20w",
-    "supplier": null
+    "supplier": "Central Elektronik (CE)"
   }
 },
 {
@@ -661,14 +661,14 @@
   "pk": 42,
   "fields": {
     "name": "Lampu LED STARLUX 30W",
-    "description": "Central Elektronik (CE)",
-    "harga_jual": "30000.00",
+    "description": "-",
+    "harga_jual": "25000.00",
     "harga_modal": "14000.00",
     "quantity": "11.00",
     "category": 5,
     "image": "poster/Lampu_DC_STARLUX__30W.jpeg",
     "slug": "lampu-led-starlux-30w",
-    "supplier": null
+    "supplier": "Central Elektronik (CE)"
   }
 },
 {
@@ -676,14 +676,14 @@
   "pk": 43,
   "fields": {
     "name": "Mic Betavo BT-100X",
-    "description": "Martin Elektronik (Song)",
+    "description": "-",
     "harga_jual": "250000.00",
     "harga_modal": "100000.00",
     "quantity": "1.00",
     "category": 6,
     "image": "poster/Mic_Betavo_BT-100X.jpeg",
     "slug": "mic-betavo-bt-100x",
-    "supplier": null
+    "supplier": "Martin Elektronik (Song)"
   }
 },
 {
@@ -691,14 +691,14 @@
   "pk": 44,
   "fields": {
     "name": "Mic BMB NK-533",
-    "description": "Cahaya Timur (CT)",
+    "description": "-",
     "harga_jual": "280000.00",
     "harga_modal": "160000.00",
     "quantity": "4.00",
     "category": 6,
     "image": "poster/Mic_BMB_NK-533.jpeg",
     "slug": "mic-bmb-nk-533",
-    "supplier": null
+    "supplier": "Cahaya Timur (CT)"
   }
 },
 {
@@ -706,14 +706,14 @@
   "pk": 45,
   "fields": {
     "name": "Mic Crimson CR-888S",
-    "description": "Martin Elektronik (Song)",
+    "description": "-",
     "harga_jual": "300000.00",
     "harga_modal": "85000.00",
     "quantity": "4.00",
     "category": 6,
     "image": "poster/Mic_Crimson_CR-888S.jpeg",
     "slug": "mic-crimson-cr-888s",
-    "supplier": null
+    "supplier": "Martin Elektronik (Song)"
   }
 },
 {
@@ -721,14 +721,14 @@
   "pk": 46,
   "fields": {
     "name": "Mic Crimson CR-1200",
-    "description": "Martin Elektronik (Song)",
+    "description": "-",
     "harga_jual": "400000.00",
     "harga_modal": "135000.00",
     "quantity": "5.00",
     "category": 6,
     "image": "poster/Mic_Crimson_CR-1200.jpeg",
     "slug": "mic-crimson-cr-1200",
-    "supplier": null
+    "supplier": "Martin Elektronik (Song)"
   }
 },
 {
@@ -736,14 +736,14 @@
   "pk": 47,
   "fields": {
     "name": "Mic Sennheiser 600",
-    "description": "Martin Elektronik (Song)",
+    "description": "-",
     "harga_jual": "250000.00",
     "harga_modal": "90000.00",
     "quantity": "9.00",
     "category": 6,
     "image": "poster/Mic_Sennheiser_600.jpeg",
     "slug": "mic-sennheiser-600",
-    "supplier": null
+    "supplier": "Martin Elektronik (Song)"
   }
 },
 {
@@ -751,14 +751,14 @@
   "pk": 48,
   "fields": {
     "name": "Mic Sennheiser 825S",
-    "description": "Martin Elektronik (Song)",
+    "description": "-",
     "harga_jual": "200000.00",
     "harga_modal": "100000.00",
     "quantity": "5.00",
     "category": 6,
     "image": "poster/Mic_Sennheiser_845S.jpeg",
     "slug": "mic-sennheiser-825s",
-    "supplier": null
+    "supplier": "Martin Elektronik (Song)"
   }
 },
 {
@@ -766,14 +766,14 @@
   "pk": 49,
   "fields": {
     "name": "Mic Shure Beta 58 A",
-    "description": "Martin Elektronik (Song)",
+    "description": "-",
     "harga_jual": "225000.00",
     "harga_modal": "100000.00",
     "quantity": "6.00",
     "category": 6,
     "image": "poster/Mic_Shure_Beta_58_A.jpeg",
     "slug": "mic-shure-beta-58-a",
-    "supplier": null
+    "supplier": "Martin Elektronik (Song)"
   }
 },
 {
@@ -781,14 +781,14 @@
   "pk": 50,
   "fields": {
     "name": "Mic Shure PG-58V",
-    "description": "Cahaya Timur (CT)",
+    "description": "-",
     "harga_jual": "200000.00",
     "harga_modal": "95000.00",
     "quantity": "1.00",
     "category": 6,
     "image": "poster/Mic_Shure_PG-58V.jpeg",
     "slug": "mic-shure-pg-58v",
-    "supplier": null
+    "supplier": "Cahaya Timur (CT)"
   }
 },
 {
@@ -796,14 +796,14 @@
   "pk": 51,
   "fields": {
     "name": "Mic Shure SM-57",
-    "description": "SE",
+    "description": "-",
     "harga_jual": "250000.00",
     "harga_modal": "125000.00",
     "quantity": "1.00",
     "category": 6,
     "image": "poster/Mic_Shure_SM-57.jpeg",
     "slug": "mic-shure-sm-57",
-    "supplier": null
+    "supplier": "Martin Elektronik (Song)"
   }
 },
 {
@@ -811,14 +811,14 @@
   "pk": 52,
   "fields": {
     "name": "Mic Shure SM-58",
-    "description": "Martin Elektronik (Song)",
+    "description": "-",
     "harga_jual": "225000.00",
     "harga_modal": "90000.00",
     "quantity": "8.00",
     "category": 6,
     "image": "poster/Mic_Shure_SM-58.jpeg",
     "slug": "mic-shure-sm-58",
-    "supplier": null
+    "supplier": "Martin Elektronik (Song)"
   }
 },
 {
@@ -826,14 +826,14 @@
   "pk": 53,
   "fields": {
     "name": "Mis Sony SN-909",
-    "description": "Cahaya Timur (CT)",
+    "description": "-",
     "harga_jual": "125000.00",
     "harga_modal": "67500.00",
     "quantity": "1.00",
     "category": 6,
     "image": "poster/Mic_Sony_SN-909.jpeg",
     "slug": "mis-sony-sn-909",
-    "supplier": null
+    "supplier": "Cahaya Timur (CT)"
   }
 },
 {
@@ -841,14 +841,14 @@
   "pk": 54,
   "fields": {
     "name": "Mic Thunder K-168",
-    "description": "Thunder",
+    "description": "-",
     "harga_jual": "200000.00",
     "harga_modal": "110000.00",
     "quantity": "13.00",
     "category": 6,
     "image": "poster/Mic_Thunder_K-168.jpeg",
     "slug": "mic-thunder-k-168",
-    "supplier": null
+    "supplier": "Thunder"
   }
 },
 {
@@ -856,14 +856,14 @@
   "pk": 55,
   "fields": {
     "name": "Mic Yamaha YM-79S",
-    "description": "Cahaya Timur (CT)",
+    "description": "-",
     "harga_jual": "250000.00",
     "harga_modal": "115000.00",
     "quantity": "2.00",
     "category": 6,
     "image": "poster/Mic_Yamaha_YM-79S.jpeg",
     "slug": "mic-yamaha-ym-79s",
-    "supplier": null
+    "supplier": "Cahaya Timur (CT)"
   }
 },
 {
@@ -871,14 +871,839 @@
   "pk": 56,
   "fields": {
     "name": "Mic Yamaha YM-916",
-    "description": "Central Elektronik (CE)",
+    "description": "-",
     "harga_jual": "200000.00",
     "harga_modal": "115000.00",
     "quantity": "2.00",
     "category": 6,
     "image": "poster/Mic_Yamaha_YM-916.jpeg",
     "slug": "mic-yamaha-ym-916",
+    "supplier": "Central Elektronik (CE)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 57,
+  "fields": {
+    "name": "Crossover Bass BA-309",
+    "description": "-",
+    "harga_jual": "60000.00",
+    "harga_modal": "35000.00",
+    "quantity": "1.00",
+    "category": 7,
+    "image": "poster/Crossover_Bass_BA-309.jpeg",
+    "slug": "crossover-bass-ba-309",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 58,
+  "fields": {
+    "name": "Crossover Surround SR-318",
+    "description": "-",
+    "harga_jual": "75000.00",
+    "harga_modal": "47500.00",
+    "quantity": "0.00",
+    "category": 7,
+    "image": "poster/Crossover_Surround_SR-318.jpeg",
+    "slug": "crossover-surround-sr-318",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 59,
+  "fields": {
+    "name": "Crossover Bell 3 Way",
+    "description": "-",
+    "harga_jual": "180000.00",
+    "harga_modal": "90000.00",
+    "quantity": "1.00",
+    "category": 7,
+    "image": "poster/Crossover_Bell_3_Way.jpeg",
+    "slug": "crossover-bell-3-way",
+    "supplier": "Bogor"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 60,
+  "fields": {
+    "name": "Crossover OL-200",
+    "description": "-",
+    "harga_jual": "125000.00",
+    "harga_modal": "70000.00",
+    "quantity": "1.00",
+    "category": 7,
+    "image": "poster/Crossover_OL-200.jpeg",
+    "slug": "crossover-ol-200",
+    "supplier": "SGF"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 61,
+  "fields": {
+    "name": "Crossover Tweeter Audiophiler",
+    "description": "-",
+    "harga_jual": "75000.00",
+    "harga_modal": "35000.00",
+    "quantity": "1.00",
+    "category": 7,
+    "image": "poster/Crossover_Tweeter_Audiophiler.jpeg",
+    "slug": "crossover-tweeter-audiophiler",
+    "supplier": "BMA"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 62,
+  "fields": {
+    "name": "Crossover audax AX-316",
+    "description": "-",
+    "harga_jual": "160000.00",
+    "harga_modal": "120000.00",
+    "quantity": "0.00",
+    "category": 7,
+    "image": "poster/Crossover_Audax_AX-316.jpeg",
+    "slug": "crossover-audax-ax-316",
     "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 63,
+  "fields": {
+    "name": "Crossover Hyper HD 1200",
+    "description": "-",
+    "harga_jual": "280000.00",
+    "harga_modal": "105000.00",
+    "quantity": "0.00",
+    "category": 7,
+    "image": "poster/Crossover_Hyper_HD-1200.jpeg",
+    "slug": "crossover-hyper-hd-1200",
+    "supplier": "Bogor"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 64,
+  "fields": {
+    "name": "Crossover BMA SR-215+",
+    "description": "-",
+    "harga_jual": "275000.00",
+    "harga_modal": "225000.00",
+    "quantity": "0.00",
+    "category": 7,
+    "image": "poster/Crossover_BMA_SR-215.jpeg",
+    "slug": "crossover-bma-sr-215",
+    "supplier": "BMA"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 65,
+  "fields": {
+    "name": "Crossover BMA PA-3T",
+    "description": "-",
+    "harga_jual": "500000.00",
+    "harga_modal": "310000.00",
+    "quantity": "0.00",
+    "category": 7,
+    "image": "poster/Crossover_BMA_PA-3T.jpeg",
+    "slug": "crossover-bma-pa-3t",
+    "supplier": "b"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 66,
+  "fields": {
+    "name": "Crossover BMA SR7788",
+    "description": "-",
+    "harga_jual": "350000.00",
+    "harga_modal": "131000.00",
+    "quantity": "0.00",
+    "category": 7,
+    "image": "poster/Crossover_BMA_SR7788.jpeg",
+    "slug": "crossover-bma-sr7788",
+    "supplier": "BMA"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 67,
+  "fields": {
+    "name": "Crossover Tweeter Hijau",
+    "description": "-",
+    "harga_jual": "80000.00",
+    "harga_modal": "50000.00",
+    "quantity": "0.00",
+    "category": 7,
+    "image": "poster/Crossover_Tweeter_Hijau.jpeg",
+    "slug": "crossover-tweeter-hijau",
+    "supplier": "Sinar Indah (SI)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 68,
+  "fields": {
+    "name": "Tweeter Arrow HL-104G",
+    "description": "-",
+    "harga_jual": "20000.00",
+    "harga_modal": "12000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Arrow_HL-104G.jpeg",
+    "slug": "tweeter-arrow-hl-104g",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 69,
+  "fields": {
+    "name": "Tweeter Arrow HL-105G",
+    "description": "-",
+    "harga_jual": "20000.00",
+    "harga_modal": "12000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Arrow_HL-105G.jpeg",
+    "slug": "tweeter-arrow-hl-105g",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 70,
+  "fields": {
+    "name": "Tweeter Arrow PCT-4000",
+    "description": "-",
+    "harga_jual": "25000.00",
+    "harga_modal": "12500.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Arrow_PCT-4000.jpeg",
+    "slug": "tweeter-arrow-pct-4000",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 71,
+  "fields": {
+    "name": "Tweeter Arrow PCT-9000",
+    "description": "-",
+    "harga_jual": "25000.00",
+    "harga_modal": "17000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Arrow_PCT-9000.jpeg",
+    "slug": "tweeter-arrow-pct-9000",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 72,
+  "fields": {
+    "name": "Tweeter Arrow PCT-9500",
+    "description": "-",
+    "harga_jual": "40000.00",
+    "harga_modal": "24500.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Arrow_PCT-9500.jpeg",
+    "slug": "tweeter-arrow-pct-9500",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 73,
+  "fields": {
+    "name": "Tweeter ACR PCT-2500",
+    "description": "-",
+    "harga_jual": "25000.00",
+    "harga_modal": "17500.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_ACR_PCT-2500.jpeg",
+    "slug": "tweeter-acr-pct-2500",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 74,
+  "fields": {
+    "name": "Tweeter ACR 701",
+    "description": "-",
+    "harga_jual": "40000.00",
+    "harga_modal": "28000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_ACR_701.jpeg",
+    "slug": "tweeter-acr-701",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 75,
+  "fields": {
+    "name": "Tweeter ACR 702",
+    "description": "-",
+    "harga_jual": "40000.00",
+    "harga_modal": "28000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_ACR_702.jpeg",
+    "slug": "tweeter-acr-702",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 76,
+  "fields": {
+    "name": "Tweeter ACR 253-PP",
+    "description": "-",
+    "harga_jual": "40000.00",
+    "harga_modal": "28000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_ACR_253_PP.jpeg",
+    "slug": "tweeter-acr-253-pp",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 77,
+  "fields": {
+    "name": "Tweeter ACR 2501-PP",
+    "description": "-",
+    "harga_jual": "40000.00",
+    "harga_modal": "28000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_ACR_2501-PP.jpeg",
+    "slug": "tweeter-acr-2501-pp",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 78,
+  "fields": {
+    "name": "Tweeter ACR 9 KH",
+    "description": "-",
+    "harga_jual": "100000.00",
+    "harga_modal": "74000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_ACR_9KH.jpeg",
+    "slug": "tweeter-acr-9-kh",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 79,
+  "fields": {
+    "name": "Tweeter Audax AX-61",
+    "description": "-",
+    "harga_jual": "25000.00",
+    "harga_modal": "18500.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Audax_AX-61.jpeg",
+    "slug": "tweeter-audax-ax-61",
+    "supplier": "Indomas (IIS)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 80,
+  "fields": {
+    "name": "Tweeter Audax AX-61C",
+    "description": "-",
+    "harga_jual": "25000.00",
+    "harga_modal": "18500.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Audax_AX-61C.jpeg",
+    "slug": "tweeter-audax-ax-61c",
+    "supplier": "Indomas (IIS)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 81,
+  "fields": {
+    "name": "Tweeter Audax AX-65",
+    "description": "-",
+    "harga_jual": "28000.00",
+    "harga_modal": "20000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Audax_AX-65.jpeg",
+    "slug": "tweeter-audax-ax-65",
+    "supplier": "Indomas (IIS)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 82,
+  "fields": {
+    "name": "Tweeter Piro PR-83",
+    "description": "-",
+    "harga_jual": "25000.00",
+    "harga_modal": "19800.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Piro_PR-83.jpeg",
+    "slug": "tweeter-piro-pr-83",
+    "supplier": "Indomas (IIS)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 83,
+  "fields": {
+    "name": "Tweeter Piro PR-88",
+    "description": "-",
+    "harga_jual": "25000.00",
+    "harga_modal": "17500.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Piro_PR-88.jpeg",
+    "slug": "tweeter-piro-pr-88",
+    "supplier": "Indomas (IIS)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 84,
+  "fields": {
+    "name": "Tweeter Piro PR-89",
+    "description": "-",
+    "harga_jual": "25000.00",
+    "harga_modal": "19800.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Piro_PR-89.jpeg",
+    "slug": "tweeter-piro-pr-89",
+    "supplier": "Indomas (IIS)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 85,
+  "fields": {
+    "name": "Tweeter BMB KW TW30168T",
+    "description": "-",
+    "harga_jual": "80000.00",
+    "harga_modal": "50000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_BMB_TW-30168T.jpeg",
+    "slug": "tweeter-bmb-kw-tw30168t",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 86,
+  "fields": {
+    "name": "Tweeter BMB Ori Hitam",
+    "description": "497515",
+    "harga_jual": "150000.00",
+    "harga_modal": "65000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_BMB_Ori_Hitam.jpeg",
+    "slug": "tweeter-bmb-ori-hitam",
+    "supplier": "Sinar Elektronik (SE)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 87,
+  "fields": {
+    "name": "Tweeter BMB Ori Putih",
+    "description": "497512",
+    "harga_jual": "150000.00",
+    "harga_modal": "75000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_BMB_Ori_Putih.jpeg",
+    "slug": "tweeter-bmb-ori-putih",
+    "supplier": "Sinar Elektronik (SE)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 88,
+  "fields": {
+    "name": "Tweeter BMB Ori Kotak",
+    "description": "49755",
+    "harga_jual": "125000.00",
+    "harga_modal": "45000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_BMB_Ori_Petak_49755.jpeg",
+    "slug": "tweeter-bmb-ori-kotak",
+    "supplier": "Sinar Elektronik (SE)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 89,
+  "fields": {
+    "name": "Tweeter Visioner HD-40",
+    "description": "-",
+    "harga_jual": "200000.00",
+    "harga_modal": "145000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Visioner_HD-40.jpeg",
+    "slug": "tweeter-visioner-hd-40",
+    "supplier": "Sinar Indah (SI)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 90,
+  "fields": {
+    "name": "Tweeter LG",
+    "description": "81103",
+    "harga_jual": "15000.00",
+    "harga_modal": "2500.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_LG-81103.jpeg",
+    "slug": "tweeter-lg",
+    "supplier": "Bogor"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 91,
+  "fields": {
+    "name": "Tweeter Rayden PCT-2500",
+    "description": "-",
+    "harga_jual": "20000.00",
+    "harga_modal": "10000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Rayden_PCT-2500.jpeg",
+    "slug": "tweeter-rayden-pct-2500",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 92,
+  "fields": {
+    "name": "Tweeter Driver Accoustic ACT-5132S",
+    "description": "-",
+    "harga_jual": "550000.00",
+    "harga_modal": "375000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_Accoustic_ACT-5132S.jpeg",
+    "slug": "tweeter-driver-accoustic-act-5132s",
+    "supplier": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 93,
+  "fields": {
+    "name": "Tweeter Driver ACR D-1",
+    "description": "plastik",
+    "harga_jual": "70000.00",
+    "harga_modal": "0.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_ACR_D1.jpeg",
+    "slug": "tweeter-driver-acr-d-1",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 95,
+  "fields": {
+    "name": "Tweeter Driver ACR AX-155",
+    "description": "-",
+    "harga_jual": "140000.00",
+    "harga_modal": "98000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_ACR.jpeg",
+    "slug": "tweeter-driver-acr-ax-155",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 96,
+  "fields": {
+    "name": "Tweeter Driver PVI DP-1",
+    "description": "-",
+    "harga_jual": "125000.00",
+    "harga_modal": "80000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_PVI_DP-1.jpeg",
+    "slug": "tweeter-driver-pvi-dp-1",
+    "supplier": "Sinar Indah (SI)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 97,
+  "fields": {
+    "name": "Tweeter Driver Thunder TH-CT 2530",
+    "description": "-",
+    "harga_jual": "100000.00",
+    "harga_modal": "68000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_Thunder_TH-CT_2530.jpeg",
+    "slug": "tweeter-driver-thunder-th-ct-2530",
+    "supplier": "Thunder"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 98,
+  "fields": {
+    "name": "Tweeter Driver Thunder TH-CT 2580",
+    "description": "-",
+    "harga_jual": "150000.00",
+    "harga_modal": "103000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_Thunder_TH-CT_2580.jpeg",
+    "slug": "tweeter-driver-thunder-th-ct-2580",
+    "supplier": "Thunder"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 99,
+  "fields": {
+    "name": "Tweeter Driver Thunder TH-CT 2830",
+    "description": "-",
+    "harga_jual": "225000.00",
+    "harga_modal": "148000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_Thunder_TH-CT_2830.jpeg",
+    "slug": "tweeter-driver-thunder-th-ct-2830",
+    "supplier": "Thunder"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 100,
+  "fields": {
+    "name": "Tweeter Driver Thunder TH-CT 2880",
+    "description": "-",
+    "harga_jual": "250000.00",
+    "harga_modal": "170000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_Thunder_TH-CT_2880.jpeg",
+    "slug": "tweeter-driver-thunder-th-ct-2880",
+    "supplier": "Thunder"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 101,
+  "fields": {
+    "name": "Tweeter Driver Thunder TH-CT 3480",
+    "description": "-",
+    "harga_jual": "350000.00",
+    "harga_modal": "230000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_Thunder_TH-CT_3480.jpeg",
+    "slug": "tweeter-driver-thunder-th-ct-3480",
+    "supplier": "Thunder"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 102,
+  "fields": {
+    "name": "Tweeter Driver BMA D4",
+    "description": "-",
+    "harga_jual": "350000.00",
+    "harga_modal": "185000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_BMA_D4.jpeg",
+    "slug": "tweeter-driver-bma-d4",
+    "supplier": "BMA"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 103,
+  "fields": {
+    "name": "Tweeter Driver BMA D5",
+    "description": "-",
+    "harga_jual": "500000.00",
+    "harga_modal": "276000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_BMA_D5.jpeg",
+    "slug": "tweeter-driver-bma-d5",
+    "supplier": "BMA"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 104,
+  "fields": {
+    "name": "Tweeter Driver Black Spider D25T",
+    "description": "-",
+    "harga_jual": "110000.00",
+    "harga_modal": "76000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_Black_Spider_D25T_2.jpeg",
+    "slug": "tweeter-driver-black-spider-d25t",
+    "supplier": "Black Spider (BS)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 105,
+  "fields": {
+    "name": "Tweeter Driver Black Spider D38T",
+    "description": "-",
+    "harga_jual": "20000.00",
+    "harga_modal": "120000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_Black_Spider_D38T.jpeg",
+    "slug": "tweeter-driver-black-spider-d38t",
+    "supplier": "Black Spider (BS)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 106,
+  "fields": {
+    "name": "Tweeter Driver Black Spider D44T",
+    "description": "-",
+    "harga_jual": "300000.00",
+    "harga_modal": "130000.00",
+    "quantity": "0.00",
+    "category": 8,
+    "image": "poster/Tweeter_Driver_Black_Spider_D44T.jpeg",
+    "slug": "tweeter-driver-black-spider-d44t",
+    "supplier": "Black Spider (BS)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 107,
+  "fields": {
+    "name": "Medium ACR 5\" Mid-N",
+    "description": "-",
+    "harga_jual": "65000.00",
+    "harga_modal": "43500.00",
+    "quantity": "0.00",
+    "category": 9,
+    "image": "poster/Medium_ACR_Mid-N.jpeg",
+    "slug": "medium-acr-5-mid-n",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 108,
+  "fields": {
+    "name": "Medium ACR 5120",
+    "description": "-",
+    "harga_jual": "80000.00",
+    "harga_modal": "58000.00",
+    "quantity": "0.00",
+    "category": 9,
+    "image": "poster/Medium_ACR_5120.jpeg",
+    "slug": "medium-acr-5120",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 109,
+  "fields": {
+    "name": "Medium ACR 5145",
+    "description": "-",
+    "harga_jual": "100000.00",
+    "harga_modal": "61000.00",
+    "quantity": "0.00",
+    "category": 9,
+    "image": "poster/Medium_ACR_5145.jpeg",
+    "slug": "medium-acr-5145",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 110,
+  "fields": {
+    "name": "Medium ACR 5150",
+    "description": "-",
+    "harga_jual": "100000.00",
+    "harga_modal": "61000.00",
+    "quantity": "0.00",
+    "category": 9,
+    "image": "poster/Medium_ACR_5150.jpeg",
+    "slug": "medium-acr-5150",
+    "supplier": "Elektron (EL)"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 111,
+  "fields": {
+    "name": "Medium Hokutone 51/2\"-76 Bulat",
+    "description": "-",
+    "harga_jual": "10000.00",
+    "harga_modal": "50000.00",
+    "quantity": "0.00",
+    "category": 9,
+    "image": "poster/Medium_Hokutone_Bulat.jpeg",
+    "slug": "medium-hokutone-512-76-bulat",
+    "supplier": "UNISON"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 112,
+  "fields": {
+    "name": "Medium Hokutone 51/2\"-76 Persegi",
+    "description": "-",
+    "harga_jual": "100000.00",
+    "harga_modal": "50000.00",
+    "quantity": "0.00",
+    "category": 9,
+    "image": "poster/Medium_Hokutone_Segi.jpeg",
+    "slug": "medium-hokutone-512-76-persegi",
+    "supplier": "UNISON"
   }
 },
 {
@@ -927,33 +1752,30 @@
   }
 },
 {
-  "model": "stock.transaksi",
-  "pk": 4,
+  "model": "stock.kategori",
+  "pk": 7,
   "fields": {
-    "items": 40,
-    "purchase_date": "2020-09-14T11:57:30.478",
-    "sold_quantity": "2.00",
-    "harga_terjual": "20000.00"
+    "category_name": "Crossover",
+    "image": "",
+    "slug": "crossover"
   }
 },
 {
-  "model": "stock.transaksi",
-  "pk": 5,
+  "model": "stock.kategori",
+  "pk": 8,
   "fields": {
-    "items": 41,
-    "purchase_date": "2020-09-14T11:57:50.074",
-    "sold_quantity": "4.00",
-    "harga_terjual": "25000.00"
+    "category_name": "Tweeter",
+    "image": "",
+    "slug": "tweeter"
   }
 },
 {
-  "model": "stock.transaksi",
-  "pk": 6,
+  "model": "stock.kategori",
+  "pk": 9,
   "fields": {
-    "items": 2,
-    "purchase_date": "2020-09-14T11:58:03.928",
-    "sold_quantity": "1.00",
-    "harga_terjual": "20000.00"
+    "category_name": "Medium",
+    "image": "",
+    "slug": "medium"
   }
 },
 {
